@@ -46,7 +46,7 @@ The second query shall output the:
 - name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
 
 The second table has been designed with the following variables: 
-- "(userid int, sessionid int, itemInSession int, artist_name text, song_title text, firstName text, lastName text, PRIMARY KEY (userid, sessionid, itemInSession))"
+- "(userid int, sessionid int, itemInSession int, artist_name text, song_title text, firstName text, lastName text, PRIMARY KEY ((userid, sessionid), itemInSession))"
 
 The PRIMARY key consists of both the 'userid', 'sessionid' and 'iteminsession' variables, this is that so that:
 - we can meet the requirement to query the table by the 'userid' and the 'sessionid' variables within the SELECT WHERE statement.
