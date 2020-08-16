@@ -6,6 +6,8 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 
 As their data engineer, I was tasked to create an Apache Cassandra database which can be used to create queries on song play data to answer their questions.
 
+> Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+
 
 ## 1. Files in the repository
 The source dataset, which consists of 30 seperate .CSV files, is located in the '/event_data' folder. The subsections below 
